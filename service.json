@@ -1,0 +1,123 @@
+[
+      {
+        "eventName": "Tech Expo 2024",
+        "description": "Explore the latest advancements in technology and innovation.",
+        "image": "https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "features": [
+          "Product demos by leading tech companies",
+          "Keynote presentations from industry experts",
+          "Networking opportunities",
+          "Hands-on workshops",
+          "Showcasing cutting-edge gadgets"
+        ]
+      },
+      {
+        "eventName": "Art & Design Symposium",
+        "description": "A gathering of artists and designers to discuss and showcase creativity.",
+        "image": "https://thumbs.dreamstime.com/b/speaker-giving-talk-business-meeting-audience-conference-hall-entrepreneurship-concept-102633077.jpg",
+        "features": [
+          "Panel discussions on art and design trends",
+          "Live art demonstrations",
+          "Gallery exhibition of featured works",
+          "Interactive design workshops",
+          "Creative networking sessions"
+        ]
+      },
+      {
+        "eventName": "Fitness Festival 2024",
+        "description": "Join us for a day of fitness activities, wellness, and healthy living.",
+        "image": "https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "features": [
+          "Group fitness classes",
+          "Nutrition workshops and seminars",
+          "Health and wellness vendors",
+          "Outdoor yoga sessions",
+          "Fitness challenges and competitions"
+        ]
+      },
+      {
+        "eventName": "Culinary Delights Expo",
+        "description": "A culinary extravaganza featuring the finest chefs and delectable dishes.",
+        "image": "https://media.istockphoto.com/id/974238866/photo/audience-listens-to-the-lecturer-at-the-conference.jpg?s=612x612&w=0&k=20&c=p_BQCJWRQQtZYnQlOtZMzTjeB_csic8OofTCAKLwT0M=",
+        "features": [
+          "Cooking demonstrations by renowned chefs",
+          "Food tasting sessions",
+          "Gourmet food stalls",
+          "Culinary competitions",
+          "Interactive cooking classes"
+        ]
+      },
+      {
+        "eventName": "Environmental Sustainability Summit",
+        "description": "Join the conversation on sustainable practices for a greener future.",
+        "image": "https://images.inc.com/uploaded_files/image/1920x1080/getty_479977238_253066.jpg",
+        "features": [
+          "Expert panels on environmental conservation",
+          "Workshops on eco-friendly living",
+          "Green technology showcase",
+          "Community tree-planting event",
+          "Networking with environmental activists"
+        ]
+      },
+      {
+        "eventName": "Fashion Show Extravaganza",
+        "description": "Experience the latest trends in fashion with glamorous runway shows.",
+        "image": "https://img-c.udemycdn.com/course/240x135/5661975_bcd6_3.jpg",
+        "features": [
+          "High-end fashion runway presentations",
+          "Designer showcases",
+          "Interactive styling sessions",
+          "Fashion industry panel discussions",
+          "Exclusive after-party for VIP attendees"
+        ]
+      },
+      {
+        "eventName": "Science and Discovery Fair",
+        "description": "An interactive fair celebrating the wonders of science and exploration.",
+        "image": "https://anticipationevents.com/wp-content/uploads/2020/10/JLPB127645-800x533.jpg",
+        "features": [
+          "Hands-on science experiments for all ages",
+          "Educational workshops",
+          "Scientific demonstrations",
+          "Interactive planetarium shows",
+          "Guest talks by prominent scientists"
+        ]
+      },
+      {
+        "eventName": "Music Festival 2024",
+        "description": "A weekend of live music performances from diverse genres and talented artists.",
+        "image": "https://www.adobe.com/content/dam/www/us/en/events/overview-page/eventshub_evergreen_opengraph_1200x630_2x.jpg",
+        "features": [
+          "Live concerts by popular artists",
+          "Local and international music acts",
+          "Interactive music workshops",
+          "DJ dance parties",
+          "Food and craft beer vendors"
+        ]
+      },
+      {
+        "eventName": "Film and Documentary Showcase",
+        "description": "A film festival highlighting compelling documentaries and cinematic achievements.",
+        "image": "https://4.imimg.com/data4/RW/PX/MY-29855425/event-management-500x500.jpg",
+        "features": [
+          "Screenings of thought-provoking documentaries",
+          "Q&A sessions with filmmakers",
+          "Film industry panel discussions",
+          "Red carpet premiere events",
+          "Cinematic masterclasses"
+        ]
+      },
+      {
+        "eventName": "Gaming Expo 2024",
+        "description": "Immerse yourself in the world of gaming with the latest releases and esports competitions.",
+        "image": "https://mindyweiss.com/wp-content/uploads/2020/05/1_TooFacedPeach-106.jpg",
+        "features": [
+          "Gaming console and PC demos",
+          "Esports tournaments with cash prizes",
+          "Meet and greet with professional gamers",
+          "Virtual reality gaming experiences",
+          "Game developer showcase"
+        ]
+      }
+    ]
+    
