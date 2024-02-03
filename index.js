@@ -33,9 +33,9 @@ async function run() {
       .db("event360")
       .collection("recentEvent");
     app.post("/service", async (req, res) => {
-      const { eventName, description, image, features } = req.body;
+      const { service, description, image, features } = req.body;
       const newService = {
-        eventName,
+        service,
         description,
         image,
         features,
@@ -68,11 +68,11 @@ async function run() {
     app.put("/services/:id", async (req, res) => {
       const id = req.params.id;
       const body = req.body;
-      const { eventName, description, image, features } = body;
+      const { service, description, image, features } = body;
       const filter = { _id: new ObjectId(id) };
       const updateDoc = {
         $set: {
-          eventName,
+          service,
           description,
           image,
           features,
