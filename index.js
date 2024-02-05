@@ -32,6 +32,9 @@ async function run() {
     const recentEventsCollection = client
       .db("event360")
       .collection("recentEvent");
+
+
+      ///service api-------------
     app.post("/service", async (req, res) => {
       const { service, description, image, features } = req.body;
       const newService = {
@@ -80,6 +83,11 @@ async function run() {
       };
       const result = await servicesCollection.updateOne(filter, updateDoc);
       res.send(result);
+    });
+    ///eventItem api------------------
+    app.get("/eventItems", async (req, res) => {
+      const allEvents = await eventsCollection.find().toArray();
+      res.send(allEvents);
     });
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
