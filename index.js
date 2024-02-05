@@ -85,9 +85,52 @@ async function run() {
       res.send(result);
     });
     ///eventItem api------------------
+    app.post("/eventItem", async (req, res) => {
+      const { eventItem, description, image, features } = req.body;
+      const newEvent = {
+        eventItem,
+        description,
+        image,
+        features,
+      };
+      console.log(newEvent);
+      const result = await eventsCollection.insertOne(newEvent);
+      res.send(newEvent);
+    });
+
     app.get("/eventItems", async (req, res) => {
       const allEvents = await eventsCollection.find().toArray();
       res.send(allEvents);
+    });
+    app.get("/eventItems/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await eventsCollection.findOne(query);
+      res.send(result);
+    });
+    app.delete("/eventItems/:id", async (req, res) => {
+      const id = req.params.id;
+
+      const result = await eventsCollection.deleteOne({
+        _id: new ObjectId(id),
+      });
+      res.send(result);
+    });
+    app.put("/eventItems/:id", async (req, res) => {
+      const id = req.params.id;
+      const body = req.body;
+      const { eventItem, description, image, features } = body;
+      const filter = { _id: new ObjectId(id) };
+      const updateDoc = {
+        $set: {
+          eventItem,
+          description,
+          image,
+          features,
+        },
+      };
+      const result = await eventsCollection.updateOne(filter, updateDoc);
+      res.send(result);
     });
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
