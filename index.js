@@ -3,15 +3,16 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
-const port = 5000;
+const port =5000;
 
 // Middleware
 app.use(cors());
+
 app.use(express.json());
 
 // MongoDB setup
 const uri =
-  "mongodb+srv://event360:event360@cluster0.zhsy6ko.mongodb.net/?retryWrites=true&w=majority";
+  `mongodb+srv://${process.env.NAME}:${process.env.PASSWORD}@cluster0.zhsy6ko.mongodb.net/?retryWrites=true&w=majority`;
 
 const client = new MongoClient(uri, {
   serverApi: {
@@ -39,6 +40,7 @@ async function run() {
       ///service api-------------
     app.post("/service", async (req, res) => {
       const { service, description, image, features } = req.body;
+
       const newService = {
         service,
         description,
