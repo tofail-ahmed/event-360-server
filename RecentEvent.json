@@ -1,0 +1,62 @@
+[
+  {
+    "eventItem": "Green Living Symposium",
+    "description": "Join the movement towards sustainable living and environmental conservation.",
+    "image": "https://images.inc.com/uploaded_files/image/1920x1080/getty_479977238_253066.jpg",
+    "features": "Expert talks on environmental sustainability, Eco-friendly lifestyle workshops, Green technology exhibits, Tree-planting initiatives, Networking with environmentalists"
+  },
+  {
+    "eventItem": "Fashion Fusion Festival",
+    "description": "Experience the fusion of fashion, culture, and style on the runway.",
+    "image": "https://img-c.udemycdn.com/course/240x135/5661975_bcd6_3.jpg",
+    "features": "Cultural fashion showcases, International designer collections, Style and beauty workshops, Fashion industry discussions, VIP after-party"
+  },
+  {
+    "eventItem": "Science Marvels Fair",
+    "description": "An immersive fair celebrating the marvels of science and exploration.",
+    "image": "https://anticipationevents.com/wp-content/uploads/2020/10/JLPB127645-800x533.jpg",
+    "features": "Interactive science experiments for all ages, Educational science workshops, Demonstrations of scientific wonders, Planetarium shows, Talks by eminent scientists"
+  },
+  {
+    "eventItem": "Harmony Sounds Festival",
+    "description": "Enjoy a weekend of diverse music genres and live performances.",
+    "image": "https://www.adobe.com/content/dam/www/us/en/events/overview-page/eventshub_evergreen_opengraph_1200x630_2x.jpg",
+    "features": "Live concerts by global and local artists, Music workshops, Dance parties with DJs, Food and beverage stalls, Music discovery experiences"
+  },
+  {
+    "eventItem": "Cinematic Excellence Showcase",
+    "description": "A film festival showcasing cinematic excellence and thought-provoking documentaries.",
+    "image": "https://4.imimg.com/data4/RW/PX/MY-29855425/event-management-500x500.jpg",
+    "features": "Screenings of award-winning documentaries, Filmmaker Q&A sessions, Red carpet premieres, Masterclasses on filmmaking, Industry discussions on cinematic trends"
+  },
+  {
+    "eventItem": "Digital Gaming Expo",
+    "description": "Immerse yourself in the world of digital gaming with the latest releases and esports competitions.",
+    "image": "https://mindyweiss.com/wp-content/uploads/2020/05/1_TooFacedPeach-106.jpg",
+    "features": "Gaming demos on consoles and PC, Esports tournaments with cash prizes, Meet-and-greet with gaming celebrities, Virtual reality gaming experiences, Showcase of upcoming game releases"
+  },
+  {
+    "eventItem": "Digital Innovation Summit",
+    "description": "Explore the latest trends and innovations in the digital world.",
+    "image": "https://webbiquity.com/wp-content/uploads/2019/06/next-corp-event.jpg",
+    "features": "Cutting-edge technology demos, Insights from industry leaders, Virtual reality experiences, Networking opportunities, Interactive coding workshops"
+  },
+  {
+    "eventItem": "Creative Expressions Gala",
+    "description": "An evening of creativity and artistic expressions from diverse talents.",
+    "image": "https://blog.milehighstation.com/hubfs/creative-event-entertainment-1.jpg",
+    "features": "Live art performances, Interactive art installations, Creative workshops, Artistic networking sessions, Gallery exhibition of unique creations"
+  },
+  {
+    "eventItem": "Wellness and Vitality Retreat",
+    "description": "Embark on a journey to holistic well-being and healthy living.",
+    "image": "https://www.tagvenue.com/blog/wp-content/uploads/2023/03/team-outing-arcade-games.png",
+    "features": "Yoga and meditation sessions, Nutrition and wellness workshops, Outdoor fitness activities, Spa and relaxation experiences, Healthy living discussions"
+  },
+  {
+    "eventItem": "Gourmet Delights Showcase",
+    "description": "Indulge in a culinary experience featuring exquisite dishes and culinary masterpieces.",
+    "image": "https://static.spacecrafted.com/db8f1d219b0c4bd19dd7652d86e61542/i/ae3275176fc541899376ba75752750fc/1/4SoifmQp45JMgBnHp7ed2/08.17.17%20-%20Lair%20Venue-24.jpg",
+    "features": "Cooking classes with renowned chefs, Gourmet food tasting, Culinary competitions, Exclusive chef's table dinners, Specialty food market"
+  }
+]

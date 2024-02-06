@@ -132,6 +132,41 @@ async function run() {
       const result = await eventsCollection.updateOne(filter, updateDoc);
       res.send(result);
     });
+
+    ///RecentEvent-----------------
+
+    app.get("/recents/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await recentEventsCollection.findOne(query);
+      res.send(result);
+    });
+    app.get("/recents", async (req, res) => {
+      const allrecents = await recentEventsCollection.find().toArray();
+      res.send(allrecents);
+    });
+    app.delete("/recents/:id", async (req, res) => {
+      const id = req.params.id;
+
+      const result = await recentEventsCollection.deleteOne({
+        _id: new ObjectId(id),
+      });
+      res.send(result);
+    });
+
+    app.post("/recent", async (req, res) => {
+      const { eventItem, description, image, features } = req.body;
+      const newEvent = {
+        eventItem,
+        description,
+        image,
+        features,
+      };
+      console.log(newEvent);
+      const result = await recentEventsCollection.insertOne(newEvent);
+      res.send(newEvent);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
