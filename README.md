@@ -1,6 +1,6 @@
-# event360
+## event360
 
-# Live_Link: https://event360-server-phi.vercel.app/
+## Live_Link: https://event360-server-phi.vercel.app/
 
 ## Getting Started
 
@@ -19,15 +19,15 @@ What things you need to install the software .
 
 ### Installing
 
-<p> npm i express mongodb nodemon cors dotenv </p>
+<p> `npm i express mongodb nodemon cors dotenv` </p>
 
 
 Technologies Used
-Node.js
-Express.js
-MongoDB
-dotenv
-cors
+- Node.js
+- Express.js
+- MongoDB
+- dotenv
+- cors
 
 
 
