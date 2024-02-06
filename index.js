@@ -29,6 +29,8 @@ async function run() {
     // Access MongoDB collections after successful connection
     const servicesCollection = client.db("event360").collection("service");
     const eventsCollection = client.db("event360").collection("event");
+    const reviewsCollection = client.db("event360").collection("review");
+    const galleriesCollection = client.db("event360").collection("gallery");
     const recentEventsCollection = client
       .db("event360")
       .collection("recentEvent");
@@ -164,9 +166,38 @@ async function run() {
       };
       console.log(newEvent);
       const result = await recentEventsCollection.insertOne(newEvent);
-      res.send(newEvent);
+      res.send(result);
     });
+///review api---------------------
 
+app.get("/reviews",async(req,res)=>{
+  const result= await reviewsCollection.find().toArray();
+res.send(result)
+})
+app.delete("/reviews/:id", async (req, res) => {
+  const id = req.params.id;
+
+  const result = await reviewsCollection.deleteOne({
+    _id: new ObjectId(id),
+  });
+  res.send(result);
+});
+app.post("/review", async (req, res) => {
+  const { name, designation, image, review } = req.body;
+  const newReview = {
+    name, designation, image, review 
+  };
+  console.log(newReview);
+  const result = await reviewsCollection.insertOne(newReview);
+  res.send(result);
+});
+
+//gllery------------
+
+app.get("/galleries", async (req, res) => {
+  const allrecents = await galleriesCollection.find().toArray();
+  res.send(allrecents);
+});
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
