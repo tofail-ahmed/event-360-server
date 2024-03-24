@@ -6,7 +6,18 @@ const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const port =5000;
 
 // Middleware
-app.use(cors());
+// const corsOptions = {
+//   origin: [
+//     "http://localhost:5173",
+//     "https://event360-client-iota.vercel.app",
+//   ],
+  
+// };
+const corsOptions = {
+  origin:"*"
+};
+
+app.use(cors(corsOptions));
 
 app.use(express.json());
 
@@ -217,7 +228,7 @@ app.get("/galleries", async (req, res) => {
 run().catch(console.dir);
 
 app.get("/", async (req, res) => {
-  res.send(`Event 360 is running on ${port}`);
+  res.send(`Event 360 is running on ${port} updated at 3/24/24`);
 });
 
 app.listen(port, () => {
